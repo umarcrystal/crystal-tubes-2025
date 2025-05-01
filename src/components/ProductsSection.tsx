@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import ScrollAnimation from './ScrollAnimation';
 
 const products = [
   {
@@ -34,43 +33,39 @@ const ProductsSection: React.FC = () => {
   return (
     <section id="products" className="py-20 bg-steel-gray">
       <div className="container-custom">
-        <ScrollAnimation animation="animate-fade-in">
-          <div className="text-center mb-12">
-            <h2 className="heading-lg mb-4">Our Premium Products</h2>
-            <p className="text-steel-text max-w-2xl mx-auto">
-              We manufacture and supply a comprehensive range of high-quality steel pipes and tubes that meet
-              international standards and specifications.
-            </p>
-          </div>
-        </ScrollAnimation>
+        <div className="text-center mb-12">
+          <h2 className="heading-lg mb-4">Our Premium Products</h2>
+          <p className="text-steel-text max-w-2xl mx-auto">
+            We manufacture and supply a comprehensive range of high-quality steel pipes and tubes that meet
+            international standards and specifications.
+          </p>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
-            <ScrollAnimation key={product.id} animation="animate-fade-in" delay={index * 150}>
-              <Card className="overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col transform hover:scale-105">
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src={product.image} 
-                    alt={product.name} 
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <CardHeader>
-                  <CardTitle className="text-xl">{product.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-steel-text">{product.description}</p>
-                </CardContent>
-                <CardFooter>
-                  <a 
-                    href="#contact" 
-                    className="text-steel-dark font-medium bg-steel rounded px-4 py-2 w-full text-center hover:brightness-95 transition-all"
-                  >
-                    Request Quote
-                  </a>
-                </CardFooter>
-              </Card>
-            </ScrollAnimation>
+            <Card key={product.id} className="overflow-hidden hover:shadow-lg transition-all duration-300 h-full flex flex-col transform hover:scale-105">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={product.image} 
+                  alt={product.name} 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl">{product.name}</CardTitle>
+              </CardHeader>
+              <CardContent className="flex-grow">
+                <p className="text-steel-text">{product.description}</p>
+              </CardContent>
+              <CardFooter>
+                <a 
+                  href="mailto:crystaltubes.msk95@gmail.com?subject=Quote%20Request&body=I%20would%20like%20to%20request%20a%20quote%20for%20your%20products."
+                  className="text-steel-dark font-medium bg-steel rounded px-4 py-2 w-full text-center hover:brightness-95 transition-all"
+                >
+                  Request Quote
+                </a>
+              </CardFooter>
+            </Card>
           ))}
         </div>
       </div>

@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef, ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 interface ScrollAnimationProps {
   children: ReactNode;
@@ -9,44 +9,11 @@ interface ScrollAnimationProps {
 }
 
 const ScrollAnimation: React.FC<ScrollAnimationProps> = ({ 
-  children, 
-  animation = 'animate-fade-in', 
-  threshold = 0.1,
-  delay = 0
+  children
 }) => {
-  const ref = useRef<HTMLDivElement>(null);
-  
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => {
-            entry.target.classList.add(...animation.split(' '));
-            observer.unobserve(entry.target);
-          }, delay);
-        }
-      },
-      {
-        threshold,
-        rootMargin: '0px 0px -50px 0px'
-      }
-    );
-    
-    const currentRef = ref.current;
-    
-    if (currentRef) {
-      observer.observe(currentRef);
-    }
-    
-    return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
-      }
-    };
-  }, [animation, threshold, delay]);
-  
+  // Removed animation logic to disable scroll animations
   return (
-    <div ref={ref} className={`opacity-0 transition-all duration-1000`}>
+    <div className="transition-all duration-1000">
       {children}
     </div>
   );
