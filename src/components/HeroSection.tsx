@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { MoveRight } from 'lucide-react';
@@ -68,7 +67,7 @@ const HeroSection: React.FC = () => {
         </div>
         
         <div className={`rounded-lg overflow-hidden shadow-2xl relative transform transition-all duration-1000 delay-700 hidden md:block ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}
-             style={{ transitionDelay: '0.9s' }}>
+             style={{ transitionDelay: '0.9s', height: '500px' }}>
           {/* Futuristic frame */}
           <div className="absolute inset-0 border-2 border-steel/50 rounded-lg"></div>
           <div className="absolute inset-0 border border-steel rounded-lg" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)' }}></div>
@@ -81,9 +80,10 @@ const HeroSection: React.FC = () => {
           </div>
           
           <img 
-            src="https://crystal-tubes.com/img/home-banner-img4.jpg" 
+            src="/images/pic01.jpeg" 
             alt="Steel Pipes Manufacturing"
             className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
+            style={{ objectPosition: 'center' }}
           />
         </div>
       </div>

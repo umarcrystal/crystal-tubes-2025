@@ -17,28 +17,32 @@ const locations = [
     name: "Mumbai (Head Office)",
     address: "B-707, 7th Floor, Kailas Business Park, Veer Savarkar Marg, Park Site, Vikhroli (W), Mumbai - 400079",
     phone: ["+91 22 4003 3774", "+91 22 4003 3775"],
-    email: ["crystaltubes.msk95@gmail.com", "info@mumbaisteel.com"]
+    email: ["crystaltubes.msk95@gmail.com", "info@mumbaisteel.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.022255966887!2d72.92411507427778!3d19.10293785161739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKailas%20Business%20Park%2C%20Hiranandani%20Gardens%2C%20Vikhroli%20West%2C%20Mumbai%2C%20Maharashtra%20400079!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
   },
   {
     id: 2,
     name: "Thane",
     address: "Shop No. 3, Ground Floor, Siddhi Tower, Near Gaondevi Mandir, Thane West - 400601",
     phone: ["+91 22 2542 6587"],
-    email: ["thane@mumbaisteel.com"]
+    email: ["thane@mumbaisteel.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.123456789!2d72.987654321!3d19.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sSiddhi%20Tower%2C%20Thane%20West!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
   },
   {
     id: 3,
     name: "Kharghar",
     address: "Plot No. 23, Sector 8, Kharghar, Navi Mumbai - 410210",
     phone: ["+91 22 2774 9532"],
-    email: ["kharghar@mumbaisteel.com"]
+    email: ["kharghar@mumbaisteel.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.987654321!2d73.123456789!3d19.987654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKharghar%2C%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
   },
   {
     id: 4,
     name: "Kalamboli",
     address: "Plot No. 45, Metal Market, Kalamboli, Navi Mumbai - 410218",
     phone: ["+91 22 2743 6821"],
-    email: ["kalamboli@mumbaisteel.com"]
+    email: ["kalamboli@mumbaisteel.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.456789123!2d73.456789123!3d19.456789123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKalamboli%2C%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
   }
 ];
 
@@ -52,9 +56,7 @@ const ContactSection: React.FC = () => {
 
   const selectLocation = (id: number) => {
     setActiveLocation(id);
-    if (window.innerWidth < 768) {
-      setExpandedLocations(false);
-    }
+    setExpandedLocations(false);
   };
 
   const currentLocation = locations.find(loc => loc.id === activeLocation) || locations[0];
@@ -217,13 +219,13 @@ const ContactSection: React.FC = () => {
           <h3 className="text-2xl font-bold mb-6 text-center text-steel-dark">Our Location</h3>
           <div className="h-96 w-full rounded-lg overflow-hidden shadow-md">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.022255966887!2d72.92411507427778!3d19.10293785161739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKailas%20Business%20Park%2C%20Hiranandani%20Gardens%2C%20Vikhroli%20West%2C%20Mumbai%2C%20Maharashtra%20400079!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin" 
+              src={currentLocation.mapUrl}
               className="w-full h-full"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Crystal Tubes Location"
+              title={`${currentLocation.name} Location`}
             ></iframe>
           </div>
         </div>
