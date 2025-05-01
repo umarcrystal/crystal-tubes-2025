@@ -9,25 +9,25 @@ const AboutSection: React.FC = () => {
           <div className="order-2 md:order-1">
             <h2 className="heading-lg mb-6 text-steel-dark">About <span className="text-steel">Mumbai Steel Pipes</span></h2>
             <p className="mb-4 text-steel-text">
-              Established in 2005, Mumbai Steel Pipes has grown to become one of the leading suppliers of mild steel ERW and seamless pipes in the region. 
-              With state-of-the-art manufacturing facilities and strict quality control measures, we ensure each product meets the highest industry standards.
+              Established in 1980, Mumbai Steel Pipes has evolved into one of India's leading manufacturers and suppliers of high-quality steel pipes and tubes. 
+              With over four decades of industry experience, we specialize in ERW MS pipes, seamless pipes, and tubes that meet rigorous national and international standards.
             </p>
             <p className="mb-6 text-steel-text">
-              Our team of experienced professionals works closely with clients to understand their specific requirements and provide tailored solutions that 
-              meet their technical specifications and budget constraints.
+              Our state-of-the-art manufacturing facilities combined with stringent quality control measures ensure that each product delivers exceptional performance, 
+              durability, and reliability across various industrial applications including oil & gas, construction, and infrastructure projects.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-steel-gray p-6 rounded-lg">
-                <div className="text-4xl font-bold text-steel mb-2">15+</div>
-                <div className="text-steel-text">Years of Experience</div>
-              </div>
-              <div className="bg-steel-gray p-6 rounded-lg">
-                <div className="text-4xl font-bold text-steel mb-2">500+</div>
-                <div className="text-steel-text">Satisfied Clients</div>
+                <div className="text-4xl font-bold text-steel mb-2">40+</div>
+                <div className="text-steel-text">Years of Excellence</div>
               </div>
               <div className="bg-steel-gray p-6 rounded-lg">
                 <div className="text-4xl font-bold text-steel mb-2">1000+</div>
+                <div className="text-steel-text">Satisfied Clients</div>
+              </div>
+              <div className="bg-steel-gray p-6 rounded-lg">
+                <div className="text-4xl font-bold text-steel mb-2">5000+</div>
                 <div className="text-steel-text">Projects Completed</div>
               </div>
               <div className="bg-steel-gray p-6 rounded-lg">
@@ -41,8 +41,8 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-steel rounded-lg"></div>
               <img 
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80" 
-                alt="Company headquarters" 
+                src="https://crystal-tubes.com/img/about-img.jpg" 
+                alt="Company facilities" 
                 className="rounded-lg w-full h-full object-cover"
               />
             </div>

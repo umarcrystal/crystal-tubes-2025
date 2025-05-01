@@ -6,7 +6,7 @@ const services = [
   {
     id: 1,
     title: 'Custom Manufacturing',
-    description: 'We offer custom manufacturing services to meet your specific requirements and specifications.',
+    description: 'Fabrication of pipes and tubes tailored to your specific requirements and specifications.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
@@ -15,18 +15,8 @@ const services = [
   },
   {
     id: 2,
-    title: 'Technical Consultation',
-    description: 'Our experts provide technical consultation to help you choose the right pipes for your specific application.',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-  },
-  {
-    id: 3,
-    title: 'Quality Testing',
-    description: 'We conduct rigorous quality testing to ensure our products meet international standards and specifications.',
+    title: 'Material Testing',
+    description: 'Comprehensive testing services including chemical analysis, mechanical testing, and non-destructive examinations.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -34,19 +24,19 @@ const services = [
     ),
   },
   {
-    id: 4,
-    title: 'On-time Delivery',
-    description: 'We ensure timely delivery of products to help you meet your project timelines and deadlines.',
+    id: 3,
+    title: 'Heat Treatment',
+    description: 'Specialized heat treatment processes to enhance material properties and performance.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
   },
   {
-    id: 5,
-    title: 'Nationwide Shipping',
-    description: 'We offer nationwide shipping services to deliver products to your doorstep, anywhere in India.',
+    id: 4,
+    title: 'Express Delivery',
+    description: 'Fast and reliable delivery services across India, with special options for urgent requirements.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -55,13 +45,22 @@ const services = [
     ),
   },
   {
-    id: 6,
-    title: 'After-sales Support',
-    description: 'We provide comprehensive after-sales support to ensure customer satisfaction and address any concerns.',
+    id: 5,
+    title: 'Technical Consultation',
+    description: 'Expert advice on material selection, pipe specifications, and application requirements.',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.5 9.5c.96-1.35 3.04-1.35 4 0m-4 4c.96 1.35 3.04 1.35 4 0" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+  },
+  {
+    id: 6,
+    title: 'Export Services',
+    description: 'Complete export solutions including documentation, packaging, and international shipping arrangements.',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
       </svg>
     ),
   },
@@ -75,7 +74,7 @@ const ServicesSection: React.FC = () => {
           <h2 className="heading-lg mb-4 text-steel">Our Services</h2>
           <p className="text-gray-300 max-w-3xl mx-auto">
             We offer a comprehensive range of services to meet all your steel pipe requirements.
-            From manufacturing to delivery, we ensure a hassle-free experience.
+            From manufacturing to delivery, we ensure a seamless experience.
           </p>
         </div>
         

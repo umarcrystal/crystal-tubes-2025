@@ -5,27 +5,27 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 const products = [
   {
     id: 1,
-    name: 'Mild Steel ERW Pipes',
-    description: 'Electric Resistance Welded pipes made from high-grade mild steel, suitable for various industrial applications.',
-    image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=800&q=80',
+    name: 'MS ERW Pipes',
+    description: 'Electric Resistance Welded mild steel pipes suitable for water, oil, gas and various structural applications.',
+    image: 'https://crystal-tubes.com/img/product-1.jpg',
   },
   {
     id: 2,
-    name: 'Seamless Steel Pipes',
-    description: 'Premium quality seamless pipes offering superior strength and durability for high-pressure applications.',
-    image: 'https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=800&q=80',
+    name: 'MS Seamless Pipes',
+    description: 'Premium seamless pipes with no welding joints, offering superior strength for high-pressure industrial applications.',
+    image: 'https://crystal-tubes.com/img/product-3.jpg',
   },
   {
     id: 3,
-    name: 'Carbon Steel Pipes',
-    description: 'High-carbon content pipes designed for applications requiring exceptional tensile strength.',
-    image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80',
+    name: 'SS Seamless & Welded Pipes',
+    description: 'Stainless steel pipes featuring excellent corrosion resistance, perfect for chemical processing and food industries.',
+    image: 'https://crystal-tubes.com/img/product-5.jpg',
   },
   {
     id: 4,
-    name: 'Galvanized Steel Pipes',
-    description: 'Corrosion-resistant galvanized pipes ideal for water supply, irrigation, and plumbing systems.',
-    image: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=800&q=80',
+    name: 'API 5L Pipes',
+    description: 'Pipes conforming to API 5L standard, specifically designed for oil and gas transmission in petroleum industries.',
+    image: 'https://crystal-tubes.com/img/product-2.jpg',
   },
 ];
 
@@ -36,7 +36,7 @@ const ProductsSection: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Our Premium Products</h2>
           <p className="text-steel-text max-w-2xl mx-auto">
-            We supply a wide range of high-quality steel pipes manufactured to meet
+            We manufacture and supply a comprehensive range of high-quality steel pipes and tubes that meet
             international standards and specifications.
           </p>
         </div>

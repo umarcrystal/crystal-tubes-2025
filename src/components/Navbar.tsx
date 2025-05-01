@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
           <a href="#products" className="hover:text-steel transition-colors">Products</a>
           <a href="#about" className="hover:text-steel transition-colors">About</a>
           <a href="#services" className="hover:text-steel transition-colors">Services</a>
+          <a href="#specifications" className="hover:text-steel transition-colors">Specifications</a>
           <a href="#contact" className="hover:text-steel transition-colors">Contact</a>
         </div>
 
@@ -50,6 +51,7 @@ const Navbar: React.FC = () => {
             <a href="#products" className="hover:text-steel transition-colors">Products</a>
             <a href="#about" className="hover:text-steel transition-colors">About</a>
             <a href="#services" className="hover:text-steel transition-colors">Services</a>
+            <a href="#specifications" className="hover:text-steel transition-colors">Specifications</a>
             <a href="#contact" className="hover:text-steel transition-colors">Contact</a>
             <Button className="bg-steel hover:bg-steel/90 text-steel-dark w-full">Get Quote</Button>
           </div>

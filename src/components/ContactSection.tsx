@@ -16,8 +16,8 @@ const ContactSection: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4 text-steel-dark">Contact Us</h2>
           <p className="text-steel-text max-w-3xl mx-auto">
-            Get in touch with our team for any inquiries or to request a quote.
-            We're here to help you find the perfect steel pipe solutions for your needs.
+            Get in touch with our team for inquiries or to request a quote.
+            We're committed to providing you with the best steel pipe solutions for your specific needs.
           </p>
         </div>
         
@@ -84,7 +84,9 @@ const ContactSection: React.FC = () => {
                   <div className="ml-4">
                     <h4 className="font-bold">Our Location</h4>
                     <p className="text-steel-text mt-1">
-                      123 Industrial Area, Andheri East, Mumbai 400072, Maharashtra, India
+                      B-707, 7th Floor, Kailas Business Park,
+                      Veer Savarkar Marg, Park Site,
+                      Vikhroli (W), Mumbai - 400079
                     </p>
                   </div>
                 </div>
@@ -96,10 +98,10 @@ const ContactSection: React.FC = () => {
                   <div className="ml-4">
                     <h4 className="font-bold">Phone Number</h4>
                     <p className="text-steel-text mt-1">
-                      +91 22 1234 5678
+                      +91 22 4003 3774
                     </p>
                     <p className="text-steel-text">
-                      +91 98765 43210
+                      +91 22 4003 3775
                     </p>
                   </div>
                 </div>
@@ -111,10 +113,10 @@ const ContactSection: React.FC = () => {
                   <div className="ml-4">
                     <h4 className="font-bold">Email Address</h4>
                     <p className="text-steel-text mt-1">
-                      info@mumbaisteel.com
+                      sales@mumbaisteel.com
                     </p>
                     <p className="text-steel-text">
-                      sales@mumbaisteel.com
+                      info@mumbaisteel.com
                     </p>
                   </div>
                 </div>
@@ -126,11 +128,11 @@ const ContactSection: React.FC = () => {
               <div className="bg-white p-5 rounded-lg shadow-md">
                 <div className="flex justify-between py-2 border-b">
                   <span>Monday - Friday</span>
-                  <span className="font-medium">9:00 AM - 6:00 PM</span>
+                  <span className="font-medium">10:00 AM - 6:30 PM</span>
                 </div>
                 <div className="flex justify-between py-2 border-b">
                   <span>Saturday</span>
-                  <span className="font-medium">9:00 AM - 1:00 PM</span>
+                  <span className="font-medium">10:00 AM - 2:00 PM</span>
                 </div>
                 <div className="flex justify-between py-2">
                   <span>Sunday</span>
@@ -145,7 +147,7 @@ const ContactSection: React.FC = () => {
           <h3 className="text-2xl font-bold mb-6 text-center text-steel-dark">Our Location</h3>
           <div className="h-96 w-full rounded-lg overflow-hidden shadow-md">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160984287!2d72.74109995709657!3d19.08219783958225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1651132182407!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.022255966887!2d72.92411507427778!3d19.10293785161739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKailas%20Business%20Park%2C%20Hiranandani%20Gardens%2C%20Vikhroli%20West%2C%20Mumbai%2C%20Maharashtra%20400079!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin" 
               className="w-full h-full"
               style={{ border: 0 }}
               allowFullScreen

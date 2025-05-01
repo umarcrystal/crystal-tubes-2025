@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
           </h1>
           <p className="text-lg mb-8 text-gray-300">
             Mumbai's trusted supplier of high-quality Mild Steel ERW & Seamless pipes
-            for all your industrial and construction needs.
+            with over 30 years of experience serving various industrial sectors.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-steel hover:bg-steel/90 text-steel-dark">Explore Products</Button>
@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="rounded-lg overflow-hidden shadow-2xl animate-fade-in hidden md:block">
           <img 
-            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1600&q=80" 
+            src="https://crystal-tubes.com/img/home-banner-img4.jpg" 
             alt="Steel Pipes Manufacturing"
             className="w-full h-full object-cover"
           />
