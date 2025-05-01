@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -7,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-steel">Mumbai Steel Pipes</h3>
+            <h3 className="text-xl font-bold mb-4 text-steel">Crystal Tubes</h3>
             <p className="text-gray-400">
               Your trusted partner for high-quality steel pipes in Mumbai. 
               We provide premium ERW and seamless pipes for all your industrial needs.
@@ -115,7 +114,7 @@ const Footer: React.FC = () => {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} Mumbai Steel Pipes. All rights reserved.
+              &copy; {new Date().getFullYear()} Crystal Tubes. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 text-sm hover:text-steel transition-colors">Privacy Policy</a>

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -9,7 +8,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-steel-dark text-steel-light py-4 sticky top-0 z-50">
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <span className="font-bold text-xl">Mumbai Steel Pipes</span>
+          <span className="font-bold text-xl">Crystal Tubes</span>
         </div>
 
         {/* Desktop Navigation */}

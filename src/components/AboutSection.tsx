@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutSection: React.FC = () => {
@@ -7,9 +6,9 @@ const AboutSection: React.FC = () => {
       <div className="container-custom">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
-            <h2 className="heading-lg mb-6 text-steel-dark">About <span className="text-steel">Mumbai Steel Pipes</span></h2>
-            <p className="mb-4 text-steel-text">
-              Established in 1980, Mumbai Steel Pipes has evolved into one of India's leading manufacturers and suppliers of high-quality steel pipes and tubes. 
+            <h2 className="heading-lg mb-6 text-steel-dark">About <span className="text-steel">Crystal Tubes</span></h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Established in 1980, Crystal Tubes has evolved into one of India's leading manufacturers and suppliers of high-quality steel pipes and tubes. 
               With over four decades of industry experience, we specialize in ERW MS pipes, seamless pipes, and tubes that meet rigorous national and international standards.
             </p>
             <p className="mb-6 text-steel-text">
