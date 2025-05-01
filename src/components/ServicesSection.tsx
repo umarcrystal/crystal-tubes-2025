@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import ScrollAnimation from './ScrollAnimation';
 
 const services = [
   {
@@ -64,31 +65,45 @@ const services = [
       </svg>
     ),
   },
+  {
+    id: 7,
+    title: 'Competitive Pricing',
+    description: 'Industry-leading cost-effective solutions with transparent pricing and flexible payment options tailored for projects of all sizes.',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+  },
 ];
 
 const ServicesSection: React.FC = () => {
   return (
     <section id="services" className="py-20 bg-steel-dark text-white">
       <div className="container-custom">
-        <div className="text-center mb-12">
-          <h2 className="heading-lg mb-4 text-steel">Our Services</h2>
-          <p className="text-gray-300 max-w-3xl mx-auto">
-            We offer a comprehensive range of services to meet all your steel pipe requirements.
-            From manufacturing to delivery, we ensure a seamless experience.
-          </p>
-        </div>
+        <ScrollAnimation animation="animate-fade-in">
+          <div className="text-center mb-12">
+            <h2 className="heading-lg mb-4 text-steel">Our Services</h2>
+            <p className="text-gray-300 max-w-3xl mx-auto">
+              We offer a comprehensive range of services to meet all your steel pipe requirements.
+              From manufacturing to delivery, we ensure a seamless experience.
+            </p>
+          </div>
+        </ScrollAnimation>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => (
-            <Card key={service.id} className="bg-steel-dark border border-gray-700 hover:border-steel transition-colors">
-              <CardHeader className="flex flex-row items-center gap-4">
-                <div className="text-steel">{service.icon}</div>
-                <CardTitle className="text-xl text-steel-light">{service.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-400">{service.description}</p>
-              </CardContent>
-            </Card>
+          {services.map((service, index) => (
+            <ScrollAnimation key={service.id} animation="animate-fade-in" delay={index * 100}>
+              <Card className="bg-steel-dark border border-gray-700 hover:border-steel transition-colors hover:transform hover:scale-105 transition-transform duration-300">
+                <CardHeader className="flex flex-row items-center gap-4">
+                  <div className="text-steel">{service.icon}</div>
+                  <CardTitle className="text-xl text-steel-light">{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-400">{service.description}</p>
+                </CardContent>
+              </Card>
+            </ScrollAnimation>
           ))}
         </div>
       </div>

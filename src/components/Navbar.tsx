@@ -23,7 +23,9 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="hidden md:block">
-          <Button className="bg-steel hover:bg-steel/90 text-steel-dark">Get Quote</Button>
+          <a href="mailto:crystaltubes.msk95@gmail.com?subject=Quote%20Request&body=I%20would%20like%20to%20request%20a%20quote%20for%20your%20products.">
+            <Button className="bg-steel hover:bg-steel/90 text-steel-dark">Get Quote</Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -53,7 +55,9 @@ const Navbar: React.FC = () => {
             <a href="#services" className="hover:text-steel transition-colors">Services</a>
             <a href="#specifications" className="hover:text-steel transition-colors">Specifications</a>
             <a href="#contact" className="hover:text-steel transition-colors">Contact</a>
-            <Button className="bg-steel hover:bg-steel/90 text-steel-dark w-full">Get Quote</Button>
+            <a href="mailto:crystaltubes.msk95@gmail.com?subject=Quote%20Request&body=I%20would%20like%20to%20request%20a%20quote%20for%20your%20products.">
+              <Button className="bg-steel hover:bg-steel/90 text-steel-dark w-full">Get Quote</Button>
+            </a>
           </div>
         </div>
       )}

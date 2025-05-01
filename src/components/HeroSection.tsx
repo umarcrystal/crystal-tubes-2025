@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { MoveRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const HeroSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -46,19 +47,23 @@ const HeroSection: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 transform transition-all duration-1000 delay-500" 
                style={{ transitionDelay: '0.6s', opacity: isVisible ? 1 : 0 }}>
-            <Button className="bg-steel hover:bg-steel/90 text-steel-dark group relative overflow-hidden">
-              <span className="relative z-10 flex items-center gap-2">
-                Explore Products
-                <MoveRight size={16} className="transition-transform group-hover:translate-x-1" />
-              </span>
-              <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity"></span>
-            </Button>
-            <Button variant="outline" className="border-steel text-steel hover:bg-steel/20 group">
-              <span className="flex items-center gap-2">
-                Contact Us
-                <span className="w-1 h-1 rounded-full bg-steel group-hover:w-4 transition-all duration-300"></span>
-              </span>
-            </Button>
+            <Link to="/#products">
+              <Button className="bg-steel hover:bg-steel/90 text-steel-dark group relative overflow-hidden w-full sm:w-auto">
+                <span className="relative z-10 flex items-center gap-2">
+                  Explore Products
+                  <MoveRight size={16} className="transition-transform group-hover:translate-x-1" />
+                </span>
+                <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity"></span>
+              </Button>
+            </Link>
+            <Link to="/#contact">
+              <Button variant="outline" className="border-steel text-steel hover:bg-steel/20 group w-full sm:w-auto">
+                <span className="flex items-center gap-2">
+                  Contact Us
+                  <span className="w-1 h-1 rounded-full bg-steel group-hover:w-4 transition-all duration-300"></span>
+                </span>
+              </Button>
+            </Link>
           </div>
         </div>
         
