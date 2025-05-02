@@ -66,7 +66,7 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         
-        <div className={`rounded-lg overflow-hidden shadow-2xl relative transform transition-all duration-1000 delay-700 hidden md:block ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}
+        <div className={`rounded-lg overflow-hidden shadow-2xl relative transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}
              style={{ transitionDelay: '0.9s', height: '500px' }}>
           {/* Futuristic frame */}
           <div className="absolute inset-0 border-2 border-steel/50 rounded-lg"></div>
