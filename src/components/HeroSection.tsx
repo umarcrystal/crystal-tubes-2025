@@ -80,7 +80,7 @@ const HeroSection: React.FC = () => {
           </div>
           
           <img 
-            src="./images/pic01.jpeg" 
+            src="/images/pic01.jpeg" 
             alt="Steel Pipes Manufacturing"
             className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
             style={{ objectPosition: 'center' }}

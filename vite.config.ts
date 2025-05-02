@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/', // Changed to root path for custom domain
+  base: mode === 'production' ? '/crystal-tubes-2025/' : '/',
   server: {
     host: "::",
     port: 8080,
