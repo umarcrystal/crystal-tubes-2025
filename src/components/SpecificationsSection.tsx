@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import ScrollAnimation from './ScrollAnimation';
@@ -34,12 +33,12 @@ const SpecificationsSection: React.FC = () => {
                     <TableRow>
                       <TableCell className="font-medium">Size Range</TableCell>
                       <TableCell>IS 1239, IS 3589, ASTM A53</TableCell>
-                      <TableCell>15 NB to 500 NB (1/2" to 20")</TableCell>
+                      <TableCell>15 NB to 600 NB (1/2" to 24")</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Wall Thickness</TableCell>
                       <TableCell>IS 1239, IS 3589, IS 10577</TableCell>
-                      <TableCell>SCH 10 to SCH 160, 2mm to 14.27mm</TableCell>
+                      <TableCell>SCH 10 to SCH 160, 2mm to 16mm</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Length</TableCell>
@@ -78,7 +77,7 @@ const SpecificationsSection: React.FC = () => {
                     <TableRow>
                       <TableCell className="font-medium">Size Range</TableCell>
                       <TableCell>ASTM A106, ASTM A333</TableCell>
-                      <TableCell>15 NB to 400 NB (1/2" to 16")</TableCell>
+                      <TableCell>15 NB to 600 NB (1/2" to 24")</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Wall Thickness</TableCell>

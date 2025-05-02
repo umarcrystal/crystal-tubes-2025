@@ -15,34 +15,34 @@ const locations = [
   {
     id: 1,
     name: "Mumbai (Head Office)",
-    address: "B-707, 7th Floor, Kailas Business Park, Veer Savarkar Marg, Park Site, Vikhroli (W), Mumbai - 400079",
-    phone: ["+91 22 4003 3774", "+91 22 4003 3775"],
-    email: ["crystaltubes.msk95@gmail.com", "info@mumbaisteel.com"],
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.022255966887!2d72.92411507427778!3d19.10293785161739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKailas%20Business%20Park%2C%20Hiranandani%20Gardens%2C%20Vikhroli%20West%2C%20Mumbai%2C%20Maharashtra%20400079!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
+    address: "339, Victoria overbridge, Reay Road, Mumbai - 400010",
+    phone: ["+919324629085"],
+    email: ["crystaltubes.msk95@gmail.com", "crystaltubesc26@gmail.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.8183136201105!2d73.05151787919864!3d19.126489403641603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c16ecd0c2893%3A0x57a288bb84e81a1a!2sCrystal%20Tubes!5e0!3m2!1sen!2sin!4v1746169128556!5m2!1sen!2sin"
   },
   {
     id: 2,
     name: "Thane",
-    address: "Shop No. 3, Ground Floor, Siddhi Tower, Near Gaondevi Mandir, Thane West - 400601",
-    phone: ["+91 22 2542 6587"],
-    email: ["thane@mumbaisteel.com"],
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.123456789!2d72.987654321!3d19.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sSiddhi%20Tower%2C%20Thane%20West!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
+    address: "Survey no. 48 Village Bhandarli, NH48, Thane, Maharashtra 400612",
+    phone: ["+919324629085"],
+    email: ["crystaltubes.msk95@gmail.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.8183136201105!2d73.05151787919864!3d19.126489403641603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c16ecd0c2893%3A0x57a288bb84e81a1a!2sCrystal%20Tubes!5e0!3m2!1sen!2sin!4v1746169128556!5m2!1sen!2sin"
   },
   {
     id: 3,
-    name: "Kharghar",
-    address: "Plot No. 23, Sector 8, Kharghar, Navi Mumbai - 410210",
-    phone: ["+91 22 2774 9532"],
-    email: ["kharghar@mumbaisteel.com"],
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.987654321!2d73.123456789!3d19.987654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKharghar%2C%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
+    name: "Navi Mumbai",
+    address: "Survey no 19/4, 19/6B, 19/14, 19/26, Batli Compound, near Adani company, Dharnacamp, Panvel, Maharashtra  410210",
+    phone: ["+919324629085"],
+    email: ["crystaltubes.msk95@gmail.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3770.2001837666553!2d73.07893807459214!3d19.09887198211032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA1JzU0LjMiTiA3M8KwMDQnNDkuMCJF!5e0!3m2!1sen!2sin!4v1746169393076!5m2!1sen!2sin"
   },
   {
     id: 4,
     name: "Kalamboli",
-    address: "Plot No. 45, Metal Market, Kalamboli, Navi Mumbai - 410218",
-    phone: ["+91 22 2743 6821"],
-    email: ["kalamboli@mumbaisteel.com"],
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.456789123!2d73.456789123!3d19.456789123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7cd797b5b89%3A0x3c4b4b7be3f74023!2sKalamboli%2C%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1683359538938!5m2!1sen!2sin"
+    address: "Plot No. 1219/o, Metal Market, Kalamboli, Navi Mumbai - 410218",
+    phone: ["+919324629085"],
+    email: ["crystaltubes.msk95@gmail.com"],
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d760.7846778858167!2d73.10640984540511!3d19.041138409989077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9ebb9952163%3A0x3049e7ce21335faa!2s1219O%2C%20Sector%20AWC%2C%20Kalamboli%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra%20410218!5e0!3m2!1sen!2sin!4v1746170738173!5m2!1sen!2sin"
   }
 ];
 
