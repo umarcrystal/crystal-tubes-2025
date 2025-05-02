@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="container-custom grid md:grid-cols-2 gap-10 items-center relative z-10">
+      <div className="container-custom max-w-full grid md:grid-cols-2 gap-10 items-center relative z-10">
         <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
           <h1 className="heading-xl mb-4 mt-0">
             Next-Gen <span className="text-steel bg-clip-text bg-gradient-to-r from-steel to-amber-300">Steel Pipes</span> for 

@@ -5,7 +5,7 @@ import ScrollAnimation from './ScrollAnimation';
 const SpecificationsSection: React.FC = () => {
   return (
     <section id="specifications" className="py-20 bg-white">
-      <div className="container-custom">
+      <div className="container-custom max-w-full">
         <ScrollAnimation animation="animate-fade-in">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-4">Product Specifications</h2>

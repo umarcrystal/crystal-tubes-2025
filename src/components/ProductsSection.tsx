@@ -31,7 +31,7 @@ const products = [
 const ProductsSection: React.FC = () => {
   return (
     <section id="products" className="py-20 bg-steel-gray">
-      <div className="container-custom">
+      <div className="container-custom max-w-full">
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Our Premium Products</h2>
           <p className="text-steel-text max-w-2xl mx-auto">

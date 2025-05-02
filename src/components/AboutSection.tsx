@@ -3,7 +3,7 @@ import React from 'react';
 const AboutSection: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-white">
-      <div className="container-custom">
+      <div className="container-custom max-w-full">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <h2 className="heading-lg mb-6 text-steel-dark">About <span className="text-steel">Crystal Tubes</span></h2>

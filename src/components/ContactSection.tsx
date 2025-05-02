@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
 
   return (
     <section id="contact" className="py-20 bg-steel-gray">
-      <div className="container-custom">
+      <div className="container-custom max-w-full">
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4 text-steel-dark">Contact Us</h2>
           <p className="text-steel-text max-w-3xl mx-auto">
