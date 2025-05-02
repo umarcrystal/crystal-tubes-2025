@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <a href="#home" className="flex items-center space-x-2">
-            <img src="./images/logo.png" alt="Crystal Tubes Logo" className="h-8 w-auto" />
+            <img src="/images/logo.png" alt="Crystal Tubes Logo" className="h-8 w-auto" />
             <span className="font-bold text-xl">
               <span className="text-steel">Crystal</span> Tubes
             </span>
