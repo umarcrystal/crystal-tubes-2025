@@ -6,25 +6,25 @@ const products = [
     id: 1,
     name: 'MS ERW Pipes',
     description: 'Electric Resistance Welded mild steel pipes suitable for water, oil, gas and various structural applications.',
-    image: '/images/gallery/fulls/round-pipe-6.jpeg',
+    image: './images/gallery/fulls/round-pipe-6.jpeg',
   },
   {
     id: 2,
     name: 'MS Seamless Pipes',
     description: 'Premium seamless pipes with no welding joints, offering superior strength for high-pressure industrial applications.',
-    image: '/images/seamless.jpg',
+    image: './images/seamless.jpg',
   },
   {
     id: 3,
     name: 'LSAW and HSAW Large Dia Pipess',
     description: 'Large diameter pipes fabricated using the latest technology, ensuring high quality and durability.',
-    image: '/images/LSAW.jpg',
+    image: './images/LSAW.jpg',
   },
   {
     id: 4,
     name: 'API 5L Pipes - Coated and Uncoated',
     description: 'Pipes conforming to API 5L standard, specifically designed for oil and gas transmission in petroleum and food grade industries.',
-    image: '/images/api.jpg',
+    image: './images/api.jpg',
   },
 ];
 
