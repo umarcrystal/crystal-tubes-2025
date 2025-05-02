@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
   }, []);
 
   return (
-    <section id="home" className="bg-steel-dark text-steel-light py-24 md:py-32 overflow-hidden relative">
+    <section id="home" className="bg-steel-dark text-steel-light pt-16 md:pt-20 pb-24 md:pb-32 overflow-hidden relative">
       {/* Futuristic background elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-0 left-0 w-full h-full">
@@ -80,7 +80,7 @@ const HeroSection: React.FC = () => {
           </div>
           
           <img 
-            src="https://crystal-tubes.com/images/pic01.jpeg" 
+            src="./images/pic01.jpeg" 
             alt="Steel Pipes Manufacturing"
             className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
             style={{ objectPosition: 'center' }}
