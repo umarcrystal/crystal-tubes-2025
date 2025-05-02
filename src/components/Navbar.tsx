@@ -8,7 +8,12 @@ const Navbar: React.FC = () => {
     <nav className="bg-steel-dark text-steel-light py-4 sticky top-0 z-50">
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <span className="font-bold text-xl">Crystal Tubes</span>
+          <a href="#home" className="flex items-center space-x-2">
+            <img src="https://crystal-tubes.com/images/logo.png" alt="Crystal Tubes Logo" className="h-8 w-auto" />
+            <span className="font-bold text-xl">
+              <span className="text-steel">Crystal</span> Tubes
+            </span>
+          </a>
         </div>
 
         {/* Desktop Navigation */}

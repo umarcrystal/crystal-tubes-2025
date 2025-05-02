@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
 
       <div className="container-custom grid md:grid-cols-2 gap-10 items-center relative z-10">
         <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
-          <h1 className="heading-xl mb-4">
+          <h1 className="heading-xl mb-4 mt-0">
             Next-Gen <span className="text-steel bg-clip-text bg-gradient-to-r from-steel to-amber-300">Steel Pipes</span> for 
             <br className="hidden md:block" /> Industrial Excellence
           </h1>
@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 transform transition-all duration-1000 delay-500" 
                style={{ transitionDelay: '0.6s', opacity: isVisible ? 1 : 0 }}>
-            <Link to="/#products">
+            <a href="#products">
               <Button className="bg-steel hover:bg-steel/90 text-steel-dark group relative overflow-hidden w-full sm:w-auto">
                 <span className="relative z-10 flex items-center gap-2">
                   Explore Products
@@ -54,15 +54,15 @@ const HeroSection: React.FC = () => {
                 </span>
                 <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity"></span>
               </Button>
-            </Link>
-            <Link to="/#contact">
+            </a>
+            <a href="#contact">
               <Button variant="outline" className="border-steel text-steel hover:bg-steel/20 group w-full sm:w-auto">
                 <span className="flex items-center gap-2">
                   Contact Us
                   <span className="w-1 h-1 rounded-full bg-steel group-hover:w-4 transition-all duration-300"></span>
                 </span>
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
         
@@ -80,7 +80,7 @@ const HeroSection: React.FC = () => {
           </div>
           
           <img 
-            src="/images/pic01.jpeg" 
+            src="https://crystal-tubes.com/images/pic01.jpeg" 
             alt="Steel Pipes Manufacturing"
             className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
             style={{ objectPosition: 'center' }}

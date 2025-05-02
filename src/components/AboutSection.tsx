@@ -40,9 +40,9 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-steel rounded-lg"></div>
               <img 
-                src="/images/godown-gate.jpeg" 
-                alt="Company facilities" 
-                className="rounded-lg w-full h-full object-cover"
+                src="https://crystal-tubes.com/images/godown-gate.jpeg" 
+                alt="Crystal Tubes Godown"
+                className="w-full h-full object-cover rounded-lg shadow-xl"
               />
             </div>
           </div>
