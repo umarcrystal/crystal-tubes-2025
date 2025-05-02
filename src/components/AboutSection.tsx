@@ -38,12 +38,14 @@ const AboutSection: React.FC = () => {
           
           <div className="order-1 md:order-2">
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-full h-full border-2 border-steel rounded-lg"></div>
-              <img 
-                src="./images/godown-gate.jpeg" 
-                alt="Crystal Tubes Godown"
-                className="w-full h-full object-cover rounded-lg shadow-xl"
-              />
+              <div className="absolute -top-4 -left-4 w-[calc(100%+2rem)] h-[calc(100%+2rem)] border-2 border-steel rounded-lg"></div>
+              <div className="relative">
+                <img 
+                  src="./images/godown-gate.jpeg" 
+                  alt="Crystal Tubes Godown"
+                  className="w-full h-full object-cover rounded-lg shadow-xl"
+                />
+              </div>
             </div>
           </div>
         </div>

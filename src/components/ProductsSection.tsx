@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -7,25 +6,25 @@ const products = [
     id: 1,
     name: 'MS ERW Pipes',
     description: 'Electric Resistance Welded mild steel pipes suitable for water, oil, gas and various structural applications.',
-    image: 'https://crystal-tubes.com/img/product-1.jpg',
+    image: './images/gallery/fulls/round-pipe-6.jpeg',
   },
   {
     id: 2,
     name: 'MS Seamless Pipes',
     description: 'Premium seamless pipes with no welding joints, offering superior strength for high-pressure industrial applications.',
-    image: 'https://crystal-tubes.com/img/product-3.jpg',
+    image: './images/seamless.jpg',
   },
   {
     id: 3,
-    name: 'SS Seamless & Welded Pipes',
-    description: 'Stainless steel pipes featuring excellent corrosion resistance, perfect for chemical processing and food industries.',
-    image: 'https://crystal-tubes.com/img/product-5.jpg',
+    name: 'LSAW and HSAW Large Dia Pipess',
+    description: 'Large diameter pipes fabricated using the latest technology, ensuring high quality and durability.',
+    image: './images/LSAW.jpg',
   },
   {
     id: 4,
-    name: 'API 5L Pipes',
-    description: 'Pipes conforming to API 5L standard, specifically designed for oil and gas transmission in petroleum industries.',
-    image: 'https://crystal-tubes.com/img/product-2.jpg',
+    name: 'API 5L Pipes - Coated and Uncoated',
+    description: 'Pipes conforming to API 5L standard, specifically designed for oil and gas transmission in petroleum and food grade industries.',
+    image: './images/api.jpg',
   },
 ];
 
