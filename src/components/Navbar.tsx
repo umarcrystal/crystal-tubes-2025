@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-steel-dark text-steel-light py-4 sticky top-0 z-50">
+    <nav className="bg-steel-dark text-steel-light py-4 fixed top-0 left-0 right-0 z-50">
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <a href="#home" className="flex items-center space-x-2">
