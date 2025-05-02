@@ -16,7 +16,7 @@ const products = [
   },
   {
     id: 3,
-    name: 'LSAW and HSAW Large Dia Pipess',
+    name: 'LSAW and HSAW Large Dia Pipes',
     description: 'Large diameter pipes fabricated using the latest technology, ensuring high quality and durability.',
     image: '/images/LSAW.jpg',
   },
