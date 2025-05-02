@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/crystal-tubes-2025/' : '/',
+  base: mode === 'production' ? '/' : '/',
   server: {
     host: "::",
     port: 8080,
